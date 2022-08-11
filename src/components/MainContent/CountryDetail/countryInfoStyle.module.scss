@@ -1,0 +1,50 @@
+.countryInfo {
+    margin-left: 20px;
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        font-size: 18px;
+        td,
+        th {
+            text-align: left;
+            padding: 8px;
+        }
+    }
+    .countryName {
+        font-size: 20px;
+        font-weight: 700;
+        padding: 8px;
+        margin-bottom: 8px;
+    }
+    .titleInfo {
+        font-weight: 600;
+        max-width: -webkit-max-content;
+        max-width: max-content;
+    }
+    .borderList {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        .borderItem {
+            display: block;
+            padding: 4px 8px;
+            margin: 8px 12px 8px 0;
+            width: -webkit-max-content;
+            width: max-content;
+            text-align: center;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            transition: all 0.2s ease;
+            opacity: 0.75;
+            font-size: 14px;
+            font-weight: 700;
+            border-radius: 4px;
+            &:hover {
+                opacity: 1;
+                font-weight: bold;
+                cursor: pointer;
+            }
+        }
+    }
+}
