@@ -6,6 +6,7 @@ function Footer() {
     return (
         <FooterPain className={themeContext.theme}>
             <p>@copyright 2022</p>
+            {/* <h1>ssdsđ</h1> */}
         </FooterPain>
     );
 }
